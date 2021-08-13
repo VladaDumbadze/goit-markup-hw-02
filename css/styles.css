@@ -1,0 +1,94 @@
+:root {
+  --mine-titel-color: #212121;
+  --secondary-titel-color: #fff;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover, .link:focus{
+    color: var(--accent-color);
+}
+/*----header---*/
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+
+  color:  #757575;
+}
+.header-mail {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14px
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+
+/*----hero---*/
+
+.hero{
+background-color: #2F303A;
+}
+.hero-text{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--secondary-titel-color);
+}
+.hero-button{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.86px;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+
+/*---strenghts---*/
+
+.strenghts{
+
+}
+.strenghts-title{
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.7px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.strenghts-title-description{
+    font-weight: normal;
+font-size: 14px;
+line-height: 1.7px;
+letter-spacing: 0.03em;
+color: #757575;
+}
