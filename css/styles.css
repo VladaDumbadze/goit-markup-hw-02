@@ -160,3 +160,38 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+/*----Portfolio----*/
+.filter-button:hover,
+.filter-button {
+  background-color: var(--accent-color);
+  color: var(--secondary-titel-color);
+}
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.menu-titel {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+.menu-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
